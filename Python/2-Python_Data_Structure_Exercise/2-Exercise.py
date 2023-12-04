@@ -1,6 +1,6 @@
 # Remove and add item in a list
 list1 = [34, 54, 67, 89, 11, 43, 94]
-print("Oringinal list", list1)
+print("Original list", list1)
 
 rmv_list = list1.pop(4)
 print("List After removing element at index 4", list1)
