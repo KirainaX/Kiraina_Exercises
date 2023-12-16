@@ -1,1 +1,2 @@
 """Random number"""
+import random
