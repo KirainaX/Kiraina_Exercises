@@ -1,7 +1,10 @@
 import random
 
-random_number = random.randint(1, 10)
+# random_number = random.randint(1, 10)
+random_number = random.random()
 miss_count = 1
+
+print(random_number)
 
 player_number = int(input("Enter the number you think is the correct number between 1 and 10: "))
 if player_number == random_number:
