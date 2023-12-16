@@ -1,6 +1,6 @@
 # all u need in basic in python
-str1 = "shff"
-print()
-input()
-len()
-str1.append()
+
+input() #EX3
+len() #EX3
+count() #EX7
+append()
