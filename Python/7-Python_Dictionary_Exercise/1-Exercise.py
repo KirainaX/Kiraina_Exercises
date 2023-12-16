@@ -7,7 +7,7 @@ from list1 is the key and item from list2 is the value
 keys = ['Ten', 'Twenty', 'Thirty']
 values = [10, 20, 30]
 
-list1 = list1= dict(zip(keys, values))
+list1 = dict(zip(keys, values))
 
 '''list1 = dict()
 
