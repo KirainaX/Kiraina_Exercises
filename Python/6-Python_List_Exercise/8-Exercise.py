@@ -9,9 +9,9 @@ list1 = ["a", "b", ["c", ["d", "e", ["f", "g"], "k"], "l"], "m", "n"]
 # sub list to add
 sub_list = ["h", "i", "j"]
 
-for i in sub_list:
-    list1[2][1][2].append(i)
+'''for i in sub_list:
+    list1[2][1][2].append(i)'''
 
-# list1[2][1][2].extend(sub_list)
+list1[2][1][2].extend(sub_list)
 
 print(list1)
