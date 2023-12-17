@@ -24,22 +24,15 @@ def rock_paper_scissors():
             elif player_choice == "Scissors"  and random_choice == "Rock":
                 print("You lose :(")
                 break
-            elif player_choice == "Paper"  and random_choice == "Rock":
+            else:
                 print("You win :)")
                 break
-            elif player_choice == "Scissors"  and random_choice == "Paper":
-                print("You win :)")
-                break
-            elif player_choice == "Rock"  and random_choice == "Scissors":
-                print("You win :)")
-                break
-
 
 rock_paper_scissors()
 while True:
     print("Do you want to play again?")
-    again = input("Yes or No: ")
-    if again == "Yes":
+    again = input("'y' for Yes or 'n' for No: ")
+    if again == 'y':
         rock_paper_scissors()
     else:
         break
