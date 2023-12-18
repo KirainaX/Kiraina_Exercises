@@ -1,6 +1,6 @@
 # all u need to know
 
-len() #EX1.1 / EX1.2 / EX6 / EX11
+'''len() #EX1.1 / EX1.2 / EX6 / EX11
 int() #EX2 / EX3 /EX6
 append() #EX4 / EX14 / EX17 / EX18
 islower() #EX4
@@ -15,4 +15,7 @@ split() #EX13 / EX17
 translate() #EX15
 maketrans() #EX15
 any() #EX17
-replace() #EX18
+replace() #EX18'''
+
+len1 = len(str1) # count the string or list or set ... | EX2
+str1 = str1.replace(char, '$') # to replace a char with another thing | EX3
