@@ -13,3 +13,8 @@ str1 = "google.com"
 
 result = count_char(str1)
 print(result)
+
+"""
+==> OUTPUT <==
+{'g': 2, 'o': 3, 'l': 1, 'e': 1, '.': 1, 'c': 1, 'm': 1}
+"""

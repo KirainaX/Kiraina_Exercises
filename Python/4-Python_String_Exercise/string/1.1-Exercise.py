@@ -7,3 +7,8 @@ idx = len(str1)
 for i in range(0, idx, 2):
     print(str1[i], end="")
 print("")
+
+"""
+==> output<==
+
+"""
