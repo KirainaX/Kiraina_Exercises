@@ -10,5 +10,5 @@ ex.lower() = kat7awalik ay 7orof kbar ila 7orof s4ar
 """"
 ==> RANDOM <==
 import random /first
-random.randint(1, 9) = kat3zalik ra9am mabin 1 w 9 but 4ir integer
+random.randint(1, 10) = kat3zalik ra9am mabin 1 w 9 but 4ir integer
 """
