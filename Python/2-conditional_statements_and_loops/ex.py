@@ -35,5 +35,20 @@ column of the array should be i*j.
 Write a Python program that accepts a sequence of lines (blank line to
 terminate) as input and prints the lines as output (all characters in lower case).
 ==> EX13 <==
+Write a Python program that accepts a sequence of comma separated 4 digit
+binary numbers as its input. The program will print the numbers that are divisible
+by 5 in a comma separated sequence.
+==> EX14 <==
+Write a Python program that accepts a string and calculates the number of
+digits and letters
+==> EX15 <==
+Write a Python program to check the validity of passwords input by users.
+Validation :
+        * At least 1 letter between [a-z] and 1 letter between [A-Z].
+        * At least 1 number between [0-9].
+        * At least 1 character from [$#@].
+        * Minimum length 6 characters.
+        * Maximum length 16 characters.
+==> EX16 <==
 
 """
