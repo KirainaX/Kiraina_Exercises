@@ -8,3 +8,7 @@ for i in my_list:
     if i > max:
         max = i
 print("The largest number is {}".format(max))
+"""
+==> OUTPUT <==
+~> The largest number is 2934
+"""

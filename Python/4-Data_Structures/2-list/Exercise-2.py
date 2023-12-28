@@ -4,3 +4,7 @@ mul_lst = 1
 for i in my_list:
     mul_lst *= i
 print(mul_lst)
+"""
+==> OUTPUT <==
+~> -120
+"""
