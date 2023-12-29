@@ -32,5 +32,10 @@ Write a Python program to print a specified list after removing the 0th, 4th and
 ==> EX13 <==
 Write a Python program to generate a 3*4*6 3D array whose each element is *.
 ==> EX14 <==
+Write a Python program to print the numbers of a specified list after removing
+even numbers from it.
+==> EX15 <==
+Write a Python program to shuffle and print a specified list.
+==> EX16 <==
 
 """
