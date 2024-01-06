@@ -1,18 +1,11 @@
-"""
+# Prompt the user for input to fill in the blanks of a short story template.
+noun = input("Noun (plural): ")
+adj = input("Adjective: ")
+verb = input("Verb (past tense): ")
+adverb = input("Adverb: ")
+color = input("Color: ")
+animal = input("Animal: ")
+number = input("Number: ")
 
-[adjective] [noun].
-"""
-adjective1 = input("Enter a adjective: ")
-noun1 = input("Enter a noun: ")
-verb1 = input("Enter a verb: ")
-adjective2 = input("Enter a adjective: ")
-noun2 = input("Enter a noun: ")
-adverb = input("Enter a adverb: ")
-verb2 = input("Enter a verb: ")
-adjective3 = input("Enter a adjective: ")
-verb3 = input("Enter a verb: ")
-verb4 = input("Enter a verb: ")
-adjective4 = input("Enter a adjective: ")
-noun3 = input("Enter a noun: ")
-
-print("One {} day, I went to the {} and {} a {} {}.\nIt was so {} that I {} {}.\nEveryone {} and {} because of my {} {}.".format(adjective1, noun1, verb1, adjective2, noun2, adverb, verb2, adjective3, verb3, verb4, adjective4, noun3))
+# Construct and print a whimsical short story using the user-provided inputs.
+print("Once upon a time, in a land filled with {}, there lived a {} and {} group of {} wolves. One day, as they {} by the river, a mysterious {} appeared.\nThe wolf spoke in {} different languages and shared tales of its adventures.\nThe wolves were amazed and decided to join the wolf on a journey to explore the {} unknown. And so, their {} adventure began, filled with laughter, surprises, and {}.\nThe end.".format(noun, adj, adverb, color, verb, animal, number, adverb, adj, noun))
