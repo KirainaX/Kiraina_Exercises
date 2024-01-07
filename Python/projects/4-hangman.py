@@ -8,5 +8,24 @@ anime_list = ["Naruto", "Dragon Ball", "One Piece", "Shingeki no Kyojin", "Death
 "Dororo", "Chainsaw Man", "Blue Lock", "Shaman King", "Dr Stone", "Detective Conan", "Fire Force", "Viland Saha"]
 
 random_anime = random.choice(anime_list)
-
 print(random_anime)
+len_random = len(random_anime)
+midl = len_random // 2
+print(midl)
+print(len_random)
+
+for chr in random_anime:
+    if chr == ' ':
+        idx = random_anime.index(chr)
+        #print(idx, end="")
+
+        print(' ', end='')
+        print(f'{chr} ({idx})', end='')
+        #random_anime = random_anime.replace(random_anime[idx], '*')
+    elif (chr == random_anime[0]) or (chr == random_anime[midl]) or (chr == random_anime[len_random -2]):
+        print(chr, end='')    
+    else:
+        print('-', end='')
+print("")
+    
+
