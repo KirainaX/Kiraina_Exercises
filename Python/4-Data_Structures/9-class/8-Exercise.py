@@ -2,23 +2,24 @@
 Now create some instances and check whether they are instances of the said classes or not.
 Also, check whether the said classes are subclasses of the built-in object class or not."""
 
-class Student:
-    pass
-class Marks:
-    pass
+# Class definition
+class Animal:
+    """Makes cute animals."""
+    # For initializing our instance objects
+    def __init__(self, name, age, is_hungry):
+        self.name = name
+        self.age = age
+        self.is_hungry = is_hungry
 
-student_instance = Student()
-marks_instance = Marks()
+# Note that self is only used in the __init__()
+# function definition; we don't need to pass it
+# to our instance objects.
 
-is_student_instance = isinstance(student_instance, Student)
-is_marks_instance = isinstance(marks_instance, Marks)
-
-is_student_subclass = issubclass(Student, object)
-is_marks_subclass = issubclass(Marks, object)
-
-print(f"Is student_instance an instance of Student class? {is_student_instance}")
-print(f"Is marks_instance an instance of Marks class? {is_marks_instance}")
-print(f"Is Student class a subclass of object class? {is_student_subclass}")
-print(f"Is Marks class a subclass of object class? {is_marks_subclass}")
+zebra = Animal("Sasuke", 2, True)
+giraffe = Animal("Hajar", 1, False)
+panda = Animal("Fatima", 17, True)
+print(zebra.name, zebra.age, zebra.is_hungry)
+print(giraffe.name, giraffe.age, giraffe.is_hungry)
+print(panda.name, panda.age, panda.is_hungry)
 
 # https://pythonistaplanet.com/python-oop-exercises/
